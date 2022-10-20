@@ -8,7 +8,7 @@
 
 .text {
     border: 7px solid black;
-    margin-left: -15px;
+    border-left: none;
     margin-top: 108px;
     margin-right: 110px;
     padding-left: 50px;
@@ -31,4 +31,8 @@ p {
     background-image: url(../img/homework1.png);
     background-size: cover;
     margin-right: 20px;
+}
+
+body {
+    margin: 0;
 }
