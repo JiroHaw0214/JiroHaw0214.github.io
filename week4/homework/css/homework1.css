@@ -1,0 +1,32 @@
+.part {
+    display: flex;
+}
+
+.part div {
+    flex: 1
+}
+
+.text {
+    border: 7px solid black;
+    margin-left: -15px;
+    margin-top: 108px;
+    margin-right: 110px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 90px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    line-height: 0;
+}
+
+.pic {
+    margin-right: 20px;
+}
