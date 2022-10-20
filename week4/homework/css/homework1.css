@@ -28,5 +28,7 @@ p {
 }
 
 .pic {
+    background-image: url(../img/homework1.png);
+    background-size: cover;
     margin-right: 20px;
 }
