@@ -1,0 +1,44 @@
+#CR {
+    border: 8px solid black;
+    border-top: none;
+    width: 50%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    margin: auto;
+    margin-top: -10px;
+    margin-bottom: 100px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.part {
+    display: flex;
+    margin-left: 90px;
+}
+
+.part div {
+    flex: 1;
+}
+
+#textMB{
+    margin-right:100px;
+    font-size: large;
+    text-align: center;
+}
+
+#textIT{
+    margin-right:100px;
+    font-size: large;
+    text-align: center;
+}
+
+#textCM{
+    margin-right:100px;
+    font-size: large;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Merriweather Sans', sans-serif;
+}
