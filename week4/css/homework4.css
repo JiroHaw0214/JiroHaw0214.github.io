@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    margin-top: 70px;
+}
+
+.part {
+    display: flex;
+    justify-content: center;
+}
+
+#text {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+#pic {
+    border-right: 2px solid white;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
