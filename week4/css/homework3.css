@@ -1,0 +1,40 @@
+.part {
+    display: flex;
+}
+
+.part div {
+    flex: 1;
+}
+
+#pic {
+    margin-top: 45px;
+    margin-left: -10px;
+    margin-right: -250px;
+}
+
+#text {
+    border: 7px solid black;
+    border-right: none;
+    margin-top: 100px;
+    margin-bottom: 300px;
+}
+
+h1 {
+    text-align: right;
+    margin-right: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: right;
+    margin-right: 40px;
+    font-style: bold;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    text-align: right;
+    margin-right: 40px; 
+}
