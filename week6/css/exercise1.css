@@ -1,3 +1,7 @@
+.container{
+    position:relative;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
