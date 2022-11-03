@@ -1,0 +1,117 @@
+.item1 {
+    grid-area: LOGO;
+}
+
+.item2 {
+    grid-area: MENU;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.item2 a {
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.item2 a:hover {
+    color: black;
+}
+
+.item3 {
+    grid-area: IMAGE_SLIDESHOW;
+    background-image: url(../img/background@2x.png);
+    background-size: cover;
+    background-color: blanchedalmond;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: purple;
+}
+
+.item4 {
+    grid-area: FEAT_1;
+    color: purple;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item5 {
+    grid-area: FEAT_2;
+    color: purple;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item6 {
+    grid-area: FEAT_3;
+    color: purple;
+    margin-top: 10px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.item7 {
+    grid-area: SLIDEBAR;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item7 div{
+    margin-top: 10px;
+}
+.item7 a {
+    color: gray;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.item7 a:hover {
+    color: black;
+}
+
+.item8 {
+    grid-area: TEXT_CONTENT;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.item8 h2 {
+    color: brown;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+
+.item8 p {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: purple;
+}
+
+.item9 {
+    grid-area: FOOTER;
+    text-align: center;
+    color: purple;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'LOGO MENU MENU'
+        'IMAGE_SLIDESHOW IMAGE_SLIDESHOW IMAGE_SLIDESHOW'
+        'FEAT_1 FEAT_2 FEAT_3'
+        'SLIDEBAR TEXT_CONTENT TEXT_CONTENT'
+        'FOOTER FOOTER FOOTER';
+}
