@@ -317,45 +317,69 @@ body {
     text-decoration: underline;
 }
 
-.search h2{
+.search h2 {
     color: #626262;
     font-size: 1.6vw;
-    font-weight:500;
+    font-weight: 500;
 }
 
-.footer h3{
+.footer h3 {
     font-size: 1.5vw;
     color: #626262;
 }
 
-.cright{
+.cright {
     position: absolute;
-    top:17vw;
-    left:2vw; 
+    top: 17vw;
+    left: 2vw;
 }
 
-.term{
+.term {
     position: absolute;
-    top:17vw;
-    left:65vw; 
+    top: 17vw;
+    left: 65vw;
 }
 
-.privacy{
+.privacy {
     position: absolute;
-    top:17vw;
-    left:75vw; 
+    top: 17vw;
+    left: 75vw;
     border-left: 0.1vw black solid;
 }
 
-.form{
+.form {
     border: none;
     padding: 0.5vw 4vw 0.5vw 0.5vw;
     font-size: 1vw;
 }
 
-.send{
+.send {
     background-color: #A6D1E6;
     border: none;
     color: white;
     padding: 0.5vw 1vw;
+}
+
+.about {
+    position: absolute;
+    left: 3vw;
+    top: 4vw;
+}
+
+.team {
+    position: absolute;
+    left: 3vw;
+    top: 7vw;
+}
+
+.menumedia {
+    position: absolute;
+    left: 3vw;
+    top: 10vw;
+}
+
+.contact {
+    position: absolute;
+    left: 3vw;
+    top: 13vw;
 }
