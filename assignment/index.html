@@ -5,6 +5,7 @@
     <title>Assignment 1</title>
     <link rel="stylesheet" href="css/assignment1.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8f2420571.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -13,11 +14,14 @@
             <img src="img/logo.png"></img>
             <h1>NEUC BA</h1>
         </div>
-        <div class="menu">
+        <div class="menu" id="myTopnav">  
             <div><a href="#">About</a></div>
             <div><a href="#">Team</a></div>
             <div><a href="#">Media</a></div>
             <div><a href="#">Contact</a></div>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa-solid fa-bars"></i>
+              </a>
         </div>
     </div>
     <div class="part1">
@@ -108,5 +112,16 @@
         <h3 class="privacy">Privacy Policy</h3>
     </div>
 </body>
+
+<script>
+    function myFunction() {
+      var x = document.getElementById("myTopnav");
+      if (x.className === "menu") {
+        x.className += " responsive";
+      } else {
+        x.className = "topnav";
+      }
+    }
+    </script>
 
 </html>

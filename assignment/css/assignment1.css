@@ -41,6 +41,10 @@ body {
     font-size: 2vw;
 }
 
+.menu i {
+    display: none;
+}
+
 .menu a:hover {
     color: black;
     font-weight: bold;
@@ -384,8 +388,81 @@ body {
     top: 13vw;
 }
 
-@media screen and (max-width:376px){
-    .part2text{
-            font-size: 5.3VW;
-        }
+@media screen and (max-width:375px) {
+    .part2text {
+        font-size: 5.3VW;
+    }
+
+    .part2 img {
+        width: 10%;
+    }
+
+    .part2 h2 {
+        font-size: 7vw;
+    }
+
+    .line1 {
+        position: absolute;
+        left: 5vw;
+        top: 17vw;
+    }
+
+    .line2 {
+        position: absolute;
+        left: 56.5vw;
+        top: 17vw;
+    }
+
+    .part5 h1 {
+        font-size: 7vw;
+    }
+
+    .part5 {
+        margin-bottom: 30vw;
+    }
+
+    .part5logo {
+        width: 20%;
+        position: absolute;
+        left: 20vw;
+    }
+
+    .part5logo2 {
+        width: 20%;
+        position: absolute;
+        left: 60vw;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
 }
