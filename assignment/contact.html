@@ -7,15 +7,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c8f2420571.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
         <div class="logonname">
             <img src="img/logo.png"></img>
-            <h1>NEUC BA</h1>
+            <a href="index.html">
+                <h1>NEUC BA</h1>
+            </a>
         </div>
 
         <div id="overlay">
@@ -24,6 +26,7 @@
                 <a href="homepage.html">Home</a>
                 <a href="about.html">About</a>
                 <a href="team.html">Team</a>
+                <a href="media.html">Media</a>
                 <a href="contact.html">Contact</a>
             </div>
         </div>
@@ -31,16 +34,16 @@
         <div class="topnav" id="myTopnav">
             <div class="middletopnav">
                 <div class="dropdown">
-                <a href="#">About</a>
-            </div>
-                <div class="dropdown">
-                    <a href="#">Team</a>
+                    <a href="about.html">About</a>
                 </div>
                 <div class="dropdown">
-                    <a href="#">Media</a>
+                    <a href="team.html">Team</a>
                 </div>
                 <div class="dropdown">
-                    <a href="#">Contact</a>
+                    <a href="media.html">Media</a>
+                </div>
+                <div class="dropdown">
+                    <a href="contact.html">Contact</a>
                 </div>
             </div>
 
@@ -52,18 +55,100 @@
         </div>
     </div>
 
+    <div class="part1">
+        <img src="img/contactpart1.jpg" width="100%"></img>
+        <h1>Let's Work Together.</h1>
+    </div>
+
+    <div class="part2">
+        <h1>Contact Us!</h1>
+        <div class="contactus">
+            <div class="table">
+                <img src="img/phone.png" width="10%">
+                <p>PHONE</p>
+                <h2>012- 606 6331</h2>
+            </div>
+            <div class="table">
+                <img src="img/mail.png" width="10%">
+                <p>EMAIL</p>
+                <h2>neucba@e.new.edu.my</h2>
+            </div>
+            <div class="table">
+                <img src="img/address.png" width="10%">
+                <p>ADDRESS</p>
+                <h2>Lot, 5, Seksyen 10, Jalan Bukit, Taman Bukit Mewah, 43000 Kajang, Selangor</h2>
+            </div>
+        </div>
+        <h1>Leave Your Message Here!</h1>
+    </div>
+
+    <div class="form">
+        <form name="myForm" action="form_submit.html">
+            <p>Get In Touch </p>
+            <div class="email"><input type="text" name="email" placeholder="Your Email" required></div>
+            <div><select name="subject" class="form-control" required>
+                    <option value=""> Subject</option>
+                    <option value="Bachelor of Arts (Honours) in Business Administration">Bachelor of Arts (Honours) in
+                        Business Administrationn</option>
+                    <option value="Bachelor of Business in Marketing (Honours)">Bachelor of Business in Marketing
+                        (Honours)</option>
+                    <option value="Bachelor of Science (Honours) Finance and Accounting">Bachelor of Science (Honours)
+                        Finance and Accounting</option>
+                    <option value="Bachelor of Computer Science (Hons) in Software Engineering">Bachelor of Computer
+                        Science (Hons) in Software Engineering</option>
+                    <option value="Bachelor in Information Technology Cyber Security with Honours">Bachelor in
+                        Information Technology Cyber Security with Honours</option>
+                    <option value="Bachelor of Arts (Honours) in Chinese Language & Literature">Bachelor of Arts
+                        (Honours) in Chinese Language & Literature</option>
+                    <option value="Bachelor of Arts (Honours) in Counselling">Bachelor of Arts (Honours) in Counselling
+                    </option>
+                    <option value="Bachelor of Education Teaching Chinese As A Second Language">Bachelor of
+                        Education Teaching Chinese As A Second Language</option>
+                    <option value="Bachelor in Early Childhood Education (Honours)">Bachelor in Early Childhood
+                        Education (Honours)</option>
+                    <option value="Bachelor of Arts (Honours) in Visual Communication">Bachelor of Arts (Honours) in
+                        Visual Communication</option>
+                    <option value="Bachelor of Arts in Chinese Media and Communication Studies">Bachelor of
+                        Arts in Chinese Media and Communication Studies</option>
+                    <option value="Foundation in Business ">Foundation in Business </option>
+                    <option value="Foundation in Chinese Communication">Foundation in Chinese Communication</option>
+                    <option value="Foundation in Art and Design">Foundation in Art and Design</option>
+                    <option value="Diploma in Business Administration">Diploma in Business Administration</option>
+                    <option value="Diploma in Marketing">Diploma in Marketing</option>
+                    <option value="Diploma in Accounting">Diploma in Accounting</option>
+                    <option value="Diploma in E-Commerce">Diploma in E-Commerce</option>
+                    <option value="Diploma in Computer Science">Diploma in Computer Science</option>
+                    <option value="Diploma in Teaching Chinese as a Second Language">Diploma in Teaching Chinese as a
+                        Second Language</option>
+                    <option value="Diploma in Early Childhood Education">Diploma in Early Childhood Education</option>
+                    <option value="Diploma in Visual Arts">Diploma in Visual Arts</option>
+                    <option value="Diploma in Graphic Design">Diploma in Graphic Design</option>
+                    <option value="Diploma in Interior Design">Diploma in Interior Design</option>
+                    <option value="Diploma in Digital Media Design">Diploma in Digital Media Design</option>
+                    <option value="Diploma in Media Studies">Diploma in Media Studies</option>
+                    <option value="Diploma in Drama & Visuals">Diploma in Drama & Visuals</option>
+                </select></div>
+                <div class="message"><input type="text" name="message" placeholder="Message" required></div>
+            <input class="submit" type="submit" value="SUBMIT NOW">
+        </form>
+    </div>
+
     <div class="footer">
         <div class="footermenu">
-            <h1>NEUC BA</h1>
-            <div class="about"><a href="#">ABOUT</a></div>
-            <div class="team"><a href="#">TEAM</a></div>
-            <div class="menumedia"><a href="#">MEDIA</a></div>
-            <div class="contact"><a href="#">CONTACT</a></div>
+            <a class="home" href="index.html">
+                <h1>NEUC BA</h1>
+            </a>
+            <div class="about"><a href="about.html">ABOUT</a></div>
+            <div class="team"><a href="team.html">TEAM</a></div>
+            <div class="menumedia"><a href="media.html">MEDIA</a></div>
+            <div class="contact"><a href="contact.html">CONTACT</a></div>
         </div>
         <div class="media">
             <h1>Follow Us</h1>
-            <a class="fb" href="#"><img src="img/facebook.png"></img></a>
-            <a class="ig" href="#"><img src="img/instagram.png"></img></a>
+            <a class="fb" href="https://www.facebook.com/profile.php?id=100065221371802" target="_facebook"><img
+                    src="img/facebook.png"></img></a>
+            <a class="ig" href="https://www.instagram.com/neuc_ba/" target="_instagram"><img
+                    src="img/instagram.png"></img></a>
         </div>
         <div class="code">
             <h1>Join Us</h1>
@@ -73,7 +158,7 @@
             <h1>Don’t Miss a Thing</h1>
             <h2>Join our Newsletter for updates,<br> offers, and more.</h2>
             <form name="myForm" action="form_submit.html">
-                <input class="form" type="text" name="email" placeholder="Enter your email address">
+                <input class="formfooter" type="text" name="email" placeholder="Enter your email address">
                 <input class="send" type="submit" value=">">
             </form>
         </div>

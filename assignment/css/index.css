@@ -31,6 +31,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logonname a{
+    text-decoration: none;
+}
+
 .middletopnav {
     display: flex;
 }
@@ -124,7 +128,7 @@ body {
     padding-left: 51vw;
 }
 
-.part1 button {
+.part1 a {
     font-weight: bold;
     color: white;
     background: rgba(0, 0, 0, 0.5);
@@ -133,9 +137,10 @@ body {
     position: absolute;
     left: 51vw;
     font-size: 1.5vw;
+    text-decoration: none;
 }
 
-.part1 button:hover {
+.part1 a:hover {
     color: black;
     background-color: white;
     cursor: pointer;
@@ -479,7 +484,7 @@ body {
         left: 2.5vw;
     }
 
-    .part1 button {
+    .part1 a {
         position: absolute;
         font-size: 2vw;
         border: 0.5vw white solid;

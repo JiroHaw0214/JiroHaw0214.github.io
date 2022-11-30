@@ -31,6 +31,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logonname a{
+    text-decoration: none;
+}
+
 .middletopnav {
     display: flex;
 }
@@ -101,6 +105,121 @@ body {
     font-size: 60px;
 }
 
+.part1{
+    position: relative;
+}
+
+.part1 h1 {
+    color: black;
+    font-size: 5vw;
+    position: absolute;
+    top:20vw;
+    left:30vw;
+}
+
+.part2 h1{
+    text-align: center;
+    font-size: 3vw;
+    color: #626262;
+    margin: 2vw;
+}
+
+.part2{
+    position: relative;
+    margin-bottom: 3vw;
+}
+
+.contactus{
+    display: flex;
+    margin  : 0vw 6.5vw;
+}
+
+.contactus div{
+    flex:1;
+    border: solid #626262 0.1vw;
+    padding-bottom: 15vw;
+    position: relative;
+}
+
+.contactus p{
+    font-size: 1vw;
+    color: #626262;
+    margin: 1vw 0vw;
+}
+
+.contactus h2{
+    text-align: justify;
+    font-size: 1.5vw;
+    color: black;
+    padding: 0vw 2vw;
+}
+
+.table img{
+    border: 0.1vw #626262 solid;
+    background-color: #626262;
+    padding: 0.5vw;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.5vw;
+    left: 3vw;
+}
+
+.table p{
+    font-size: 2vw;
+    position: absolute;
+    top: 0.5vw;
+    left: 8vw;
+}
+
+.table h2{
+    position: absolute;
+    top: 5.5vw;
+    left: 1.5vw;
+}
+
+.form{
+    background-color: #eeeeee;
+    margin: 0vw 30vw 5vw 30vw;
+    padding-left: 3.5vw;
+    position: relative;
+}
+
+.form p{
+    font-size: 2vw;
+    color: #626262;
+    padding-top: 2vw;
+    margin-bottom: 1vw;
+}
+
+.email input{
+    font-size: 1vw;
+    padding: 0.4vw 17.5vw 0.4vw 0.3vw;
+    margin-top: 0.8vw;
+}
+
+.form select{
+    font-size: 1vw;
+    color: #626262;
+    padding: 0.4vw 0vw;
+    margin-top: 1.5vw;
+}
+
+.message input{
+    font-size: 1vw;
+    padding: 0.4vw 17.5vw 3.4vw 0.3vw;
+    margin-top: 1.5vw;
+}
+
+.submit{
+    font-size: 1vw;
+    color: white;
+    background-color: #626262;
+    border: none;
+    border-radius: 0.5vw;
+    padding: 0.9vw 2vw;
+    margin: 2vw 0vw 3vw 20.3vw;
+}
+
 .footer {
     display: flex;
     background-color: #cfcfcf;
@@ -167,7 +286,7 @@ body {
     border-left: 0.1vw black solid;
 }
 
-.form {
+.formfooter {
     border: none;
     padding: 0.5vw 4vw 0.5vw 0.5vw;
     font-size: 1vw;
@@ -229,6 +348,81 @@ body {
     .topnav a.icon {
         float: right;
         display: block;
+    }
+
+    .part1 h1{
+        text-align: center;
+        font-size: 13vw;
+        position: absolute;
+        top: 0vw;
+        left: 17vw;
+    }
+
+    .part2 h1{
+        font-size: 7vw;
+        margin-top: 5vw;
+    }
+
+    .contactus{
+        flex-direction: column;
+    }
+
+    .contactus div{
+        padding-bottom: 45vw;
+    }
+
+    .table img{
+        position: absolute;
+        top: 8vw;
+        left: 5vw;
+    }
+
+    .table p{
+        font-size: 3vw;
+        position: absolute;
+        top: 10vw;
+        left: 18vw;
+    }
+
+    .table h2{
+        font-size: 5.5vw;
+        position: absolute;
+        top: 20vw;
+        left: 1vw;
+    }
+
+    .form{
+        margin: 0vw 6.5vw;
+    }
+
+    .form p{
+        padding-top: 8vw;
+        font-size: 5vw;
+    }
+
+    .email input{
+        font-size: 4vw;
+        padding-right: 28vw;
+        margin-top: 5vw;
+    }
+
+    .form select{
+        font-size: 2.5vw;
+        margin-top: 2vw;
+    }
+
+    .message input{
+        font-size: 4vw;
+        padding-right: 28vw;
+        margin-top: 2vw;
+    }
+
+    .submit{
+        font-size: 4vw;
+        font-weight: bold;
+        padding:3vw 5vw;
+        border-radius: 1vw;
+        margin-left: 42vw;
     }
 
     .footer {
@@ -317,7 +511,7 @@ body {
         font-size: 4.5vw;
     }
 
-    .form{
+    .formfooter{
         position: absolute;
         left:10vw;
         top:105vw;  

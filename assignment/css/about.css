@@ -31,6 +31,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.logonname a{
+    text-decoration: none;
+}
+
 .middletopnav {
     display: flex;
 }
@@ -99,6 +103,96 @@ body {
     top: 0;
     right: 0;
     font-size: 60px;
+}
+
+.part1{
+    position: relative;
+}
+
+.part1 h1 {
+    color: white;
+    font-size: 5vw;
+    position: absolute;
+    top:20vw;
+    left:9vw;
+}
+
+.part2 h1{
+    text-align: center;
+    font-size: 2.5vw;
+    color: #626262;
+}
+
+.part2 h2{
+    padding: 0vw 6.5vw;
+    font-size: 1.7vw;
+    color: #626262;
+    margin-top: 4vw;
+}
+
+.table{
+    display: flex;
+    margin  : 0vw 6.5vw;
+}
+
+.table div{
+    flex:1;
+    border: solid #626262 0.1vw;
+}
+
+.table h1{
+    font-size: 2vw;
+    margin: 1vw 0vw;
+}
+
+.table h2{
+    padding: 0vw;
+    margin: 0;
+    margin-bottom: 1vw;
+    text-align: center;
+    font-size: 1.5vw;
+    color: #5C2000;
+}
+
+.part3{
+    position: relative;
+}
+
+.part3 h1{
+    font-size: 2.5vw;
+    text-align: center;
+}
+
+.word{
+    padding-right: 5vw;
+    position: absolute;
+    left: 40vw;
+    top: 22vw;
+}
+
+.president{
+    position: absolute;
+    left: 46vw;
+    top: 35vw;
+}
+
+.part4 {
+    color: #626262;
+    font-size: 1.9vw;
+    text-align: center;
+    margin-top: 5vw;
+    position: relative;
+    margin-bottom: 15vw;
+}
+
+.part4logo {
+    position: absolute;
+    left: 35vw;
+}
+
+.part4logo2 {
+    position: absolute;
+    left: 53vw;
 }
 
 .footer {
@@ -229,6 +323,71 @@ body {
     .topnav a.icon {
         float: right;
         display: block;
+    }
+
+    .part1 h1{
+        text-align: center;
+        font-size: 16vw;
+        position: absolute;
+        top: 0vw;
+        left: 17vw;
+    }
+
+    .part2 h1{
+        text-align: left;
+        font-size: 7vw;
+        margin: 5vw 2.1vw;
+    }
+
+    .part2 h2{
+        font-size: 5vw;
+        padding: 5vw 2.1vw;
+    }
+
+    .table{
+        flex-direction: column;
+    }
+
+    .table h1{
+        text-align: center;
+        margin: 3vw 0vw;
+    }
+
+    .table h2{
+        padding: 2vw 0vw;
+    }
+
+    .part3 h1{
+        font-size: 4vw;
+    }
+
+    .word{
+        position: absolute;
+        left: 30vw;
+        top: 10vw;
+        padding: 0;
+    }
+    
+    .president{
+        position: absolute;
+        left: 42vw;
+        top: 32vw;
+    }
+
+    .part4 {
+        margin-bottom: 30vw;
+    }
+
+    .part4logo {
+        width: 20%;
+        position: absolute;
+        left: 20vw;
+    }
+
+    .part4logo2 {
+        width: 20%;
+        position: absolute;
+        left: 60vw;
     }
 
     .footer {
