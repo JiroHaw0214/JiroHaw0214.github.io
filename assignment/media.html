@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>MEDIA - NEUC BA</title>
+    <link rel="stylesheet" href="css/media.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c8f2420571.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="header">
+        <div class="logonname">
+            <img src="img/logo.png"></img>
+            <h1>NEUC BA</h1>
+        </div>
+
+        <div id="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="overlay-content">
+                <a href="homepage.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="team.html">Team</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+
+        <div class="topnav" id="myTopnav">
+            <div class="middletopnav">
+                <div class="dropdown">
+                <a href="#">About</a>
+            </div>
+                <div class="dropdown">
+                    <a href="#">Team</a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Media</a>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+
+            <div class="righttopnav">
+                <a id="hiddenbar" href="javascript:void(0);" class="icon" onclick="openNav()">
+                    <i id="icon" class="fa-solid fa-bars"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footermenu">
+            <h1>NEUC BA</h1>
+            <div class="about"><a href="#">ABOUT</a></div>
+            <div class="team"><a href="#">TEAM</a></div>
+            <div class="menumedia"><a href="#">MEDIA</a></div>
+            <div class="contact"><a href="#">CONTACT</a></div>
+        </div>
+        <div class="media">
+            <h1>Follow Us</h1>
+            <a class="fb" href="#"><img src="img/facebook.png"></img></a>
+            <a class="ig" href="#"><img src="img/instagram.png"></img></a>
+        </div>
+        <div class="code">
+            <h1>Join Us</h1>
+            <img src="img/code.png" width="30%"></img>
+        </div>
+        <div class="search">
+            <h1>Don’t Miss a Thing</h1>
+            <h2>Join our Newsletter for updates,<br> offers, and more.</h2>
+            <form name="myForm" action="form_submit.html">
+                <input class="form" type="text" name="email" placeholder="Enter your email address">
+                <input class="send" type="submit" value=">">
+            </form>
+        </div>
+        <h3 class="cright">Copyright © 2022 Laaqiq. All Rights Reserved.</h3>
+        <h3 class="term">Terms of Use</h3>
+        <h3 class="privacy">Privacy Policy</h3>
+    </div>
+</body>
+
+<script>
+    function openNav() {
+        document.getElementById("overlay").style.width = "100%";
+    }
+
+    function closeNav() {
+        document.getElementById("overlay").style.width = "0%";
+    }
+</script>
+
+</html>
