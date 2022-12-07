@@ -113,7 +113,7 @@ body {
     color: white;
     font-size: 5vw;
     position: absolute;
-    top:20vw;
+    top:14vw;
     left:9vw;
 }
 
@@ -329,8 +329,9 @@ body {
         text-align: center;
         font-size: 16vw;
         position: absolute;
-        top: 0vw;
+        top: 3vw;
         left: 17vw;
+        margin-top: 0;
     }
 
     .part2 h1{
