@@ -237,18 +237,6 @@ body {
     color: #626262;
 }
 
-.cright {
-    position: absolute;
-    top: 17vw;
-    left: 2vw;
-}
-
-.term {
-    position: absolute;
-    top: 17vw;
-    left: 65vw;
-}
-
 .privacy {
     position: absolute;
     top: 17vw;
@@ -375,7 +363,7 @@ body {
     }
 
     .footer {
-        padding-bottom: 130vw;
+        padding-bottom: 110vw;
         position: relative;
     }
 
@@ -476,24 +464,10 @@ body {
         padding: 3vw 7vw;
     }
 
-    .term{
-        position: absolute;
-        left:10vw;
-        top:125vw;  
-        font-size: 4.5vw;
-    }
-
-    .privacy{
-        position: absolute;
-        left:50vw;
-        top:125vw;  
-        font-size: 4.5vw;
-    }
-
     .cright{
         position: absolute;
         left:10vw;
-        top:145vw;  
+        top:125vw;  
         font-size: 4.5vw;
     }
 
