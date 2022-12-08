@@ -16,7 +16,7 @@
     color: #626262;
 }
 
-.part2 h2{
+.part2 p{
     padding: 0vw 6.5vw;
     font-size: 1.7vw;
     color: #626262;
@@ -104,7 +104,7 @@
         margin: 5vw 2.1vw;
     }
 
-    .part2 h2{
+    .part2 p{
         font-size: 5vw;
         padding: 5vw 2.1vw;
     }
