@@ -167,13 +167,13 @@ body {
     padding-right: 5vw;
     position: absolute;
     left: 40vw;
-    top: 22vw;
+    top: 8vw;
 }
 
 .president{
     position: absolute;
     left: 46vw;
-    top: 35vw;
+    top: 21vw;
 }
 
 .part4 {
@@ -351,15 +351,15 @@ body {
 
     .word{
         position: absolute;
-        left: 30vw;
-        top: 10vw;
+        left: 40vw;
+        top: 0.1vw;
         padding: 0;
     }
     
     .president{
         position: absolute;
         left: 42vw;
-        top: 32vw;
+        top: 22vw;
     }
 
     .part4 {
