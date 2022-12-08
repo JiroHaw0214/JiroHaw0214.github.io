@@ -3,6 +3,10 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+body p{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .header {
     height: 6vw;
     background: #CFCFCF;
