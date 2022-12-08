@@ -88,12 +88,6 @@
     left: 53vw;
 }
 
-.send{
-    font-size: 2vw;
-    padding: 0vw 0.8vw;
-
-}
-
 @media screen and (max-width:375px) {
     .part1 h1{
         text-align: center;
@@ -161,11 +155,4 @@
         left: 60vw;
     }
 
-    .send {
-        position: absolute;
-        left: 70vw;
-        top: 105vw;
-        padding: 3.5vw 11vw;
-        font-size: 4vw;
-    }
 }

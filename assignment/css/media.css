@@ -83,11 +83,6 @@
     color: #626262;
 }
 
-.send{
-    font-size: 2vw;
-    padding: 0vw 0.8vw;
-}
-
 @media screen and (max-width:375px) {
     .part1 h1{
         font-size: 13vw;

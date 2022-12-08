@@ -269,12 +269,6 @@
     top: 11vw;
 }
 
-.send{
-    position: absolute;
-    top:11.8vw;
-    right: 5vw;
-}
-
 @media screen and (max-width:375px) {
     .part1 {
         background-size: 120%;
@@ -498,12 +492,5 @@
         width: 20%;
         position: absolute;
         left: 60vw;
-    }
-
-    .send {
-        position: absolute;
-        left: 70vw;
-        top: 105vw;
-        padding: 3vw;
     }
 }
