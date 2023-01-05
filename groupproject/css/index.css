@@ -2,6 +2,14 @@
     color: white;
 }
 
+.title h1,.subtitle h3{
+    text-shadow: 7px 7px 5px black;
+}
+
+.mycontainer6 h4{
+    color: black;
+}
+
 #titlediv h3{
     padding-bottom: 5vw;
 }
@@ -17,10 +25,20 @@
     background-image: linear-gradient(to right, #09008a, #6358fb);
 }
 
-.mycontainer1 div div h4 {
+.mycontainer1 div h4 {
     font-size: 2.2vw;
-    padding-top: 3vw;
-    padding-bottom: 3vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+}
+
+.consult{
+    font-size: 2.2vw;
+}
+
+.mycontainer6 div h4{
+    font-size: 2vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
 }
 
 .check{
@@ -56,6 +74,10 @@
     color: white;
 }
 
+.card-title{
+    font-weight: bold;
+}
+
 .card-body a:hover{
     text-decoration: underline;
     color: #22A39F;
@@ -73,6 +95,11 @@
     padding-right: 20vw;
 }
 
+.consult{
+    color: black;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width:700px) {
     .buttonone {
@@ -83,6 +110,17 @@
         font-size: 4.5vw;
         padding: 0vw 0vw 0vw 0vw;
         text-align: center;
+    }
+
+    .consult{
+        text-align: center;
+        font-size: 4.5vw;
+    }
+    
+    .mycontainer6 div h4{
+        font-size: 4vw;
+        padding-top: 2.5vw;
+        padding-bottom: 2.5vw;
     }
 
     .row h4{
@@ -104,7 +142,7 @@
     }
 
     .mycontainer6 h4{
-        padding:0vw 0vw 0vw 0vw;
+        padding:0vw;
         text-align: center;
     }
 }
