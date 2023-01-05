@@ -89,6 +89,10 @@
         padding: 0vw 0vw 0vw 0vw;
     }
 
+    .check{
+        position: relative;
+    }
+
     .check a{
         position: absolute;
         top:37vw;    
