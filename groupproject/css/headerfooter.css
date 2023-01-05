@@ -27,11 +27,6 @@ p, li{
     background-color: grey;
 }
 
-.nav-link:hover{
-    text-decoration: underline;
-    color: #F5EDCE;
-}
-
 @media screen and (max-width:768px){
         .footer{
             flex-direction: column;
