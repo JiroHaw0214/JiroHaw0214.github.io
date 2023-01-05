@@ -27,6 +27,11 @@ p, li{
     background-color: grey;
 }
 
+.cell a:hover, .text-light a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
 @media screen and (max-width:768px){
         .footer{
             flex-direction: column;

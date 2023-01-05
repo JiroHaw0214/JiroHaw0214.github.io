@@ -122,6 +122,10 @@
     font-size: 1.5vw;
 }
 
+.rightflex a:hover, .mycontainer3 a:hover{
+    text-decoration: underline;
+}
+
 @media screen and (max-width:950px) {
     .rightflex{
         display: block;
